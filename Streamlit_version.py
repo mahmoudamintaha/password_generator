@@ -39,5 +39,4 @@ def main():
     st.header(pass_string)
 
 
-if __name__ == "__main__":
-    main()
+main()
