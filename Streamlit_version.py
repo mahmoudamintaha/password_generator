@@ -35,8 +35,9 @@ def main():
 
     pass_string = ''.join(str(e) for e in pass_list)
     st.markdown("### Your **:blue[Password]** is: ")
-    pyperclip.copy(pass_string)
     st.header(pass_string)
+    pyperclip.copy(pass_string)
 
 
-main()
+if __name__ == "__main__":
+    main()
