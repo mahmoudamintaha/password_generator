@@ -5,7 +5,6 @@ st.write("This script lets you choose the number of each digit type in your pass
 
 def main():
     import random as r
-    import pyperclip
 
     numlen = int(st.select_slider(
         "How many numbers does your password include? ", [1, 2, 3, 4, 5, 6, 7, 8, 9]))
@@ -36,7 +35,7 @@ def main():
     pass_string = ''.join(str(e) for e in pass_list)
     st.markdown("### Your **:blue[Password]** is: ")
     st.header(pass_string)
-    pyperclip.copy(pass_string)
+
 
 
 if __name__ == "__main__":
