@@ -1,5 +1,5 @@
 import streamlit as st
-st.set_page_config(page_title = "كلمة مرور عشوائية "و
+st.set_page_config(page_title = "كلمة مرور عشوائية"
                    page_icon = ":gift:"
 st.title("Password generator")
 st.write("This script lets you choose the number of each digit type in your password and generates a password with the desiresd specifications\n")
